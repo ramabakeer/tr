@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(to right, #FFB6C1, #7FFFD4);
+}
+
+.Taschenrechner {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 75px);
+}
+
+.Taschenrechner>button {
+    background-color: rgb(182, 154, 201);
+    border: 1px solid white;
+    font-size: 2rem;
+    color: white;
+}
+
+.Taschenrechner>button:hover {
+    background-color: rgb(168, 208, 235);
+}
+
+.rama {
+    grid-column: span 3;
+}
+
+.Rama {
+    grid-column: 1/ -1;
+    background-color: white;
+    padding: 20px;
+}
